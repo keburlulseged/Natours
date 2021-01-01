@@ -16,9 +16,8 @@
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
   <body>
-
     <div class="navigation">
-      <input type="checkbox" id="nav-toggle" class="navigation__checkbox">
+      <input type="checkbox" id="nav-toggle" class="navigation__checkbox" />
       <label for="nav-toggle" class="navigation__button">
         <span class="navigation__icon">&nbsp;</span>
       </label>
@@ -27,55 +26,106 @@
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Natours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>popular tours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>01</span> About Natours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>02</span>Your benefits</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>popular tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Book now</a>
+          </li>
         </ul>
       </nav>
     </div>
     <header class="header">
-        <div class="header__logo-box">
-            <img src="img/logo-white.png" class="header__logo" alt="Logo">
-        </div>
+      <div class="header__logo-box">
+        <img src="img/logo-white.png" class="header__logo" alt="Logo" />
+      </div>
 
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">Kebur Lulseged</span>
-                <span class="heading-primary--sub">full stack engineer</span>
-            </h1>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Kebur Gedion Lulseged</span>
+          <span class="heading-primary--sub">JavaScript Developer</span>
+        </h1>
 
-            <a href="#" class="btn btn--white btn--animated">See projects</a>
-        </div>
+        <a href="#" class="btn btn--white btn--animated">See projects</a>
+      </div>
     </header>
 
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Skills
-          </h2>
+          <h2 class="heading-secondary">Skills</h2>
         </div>
 
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              You're going to fall in love with nature
+            </h3>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non eaque esse error, repellat et tempora repudiandae cupiditate eligendi? Minus, repudiandae quasi. Vitae doloribus ipsam nemo, harum obcaecati ut numquam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              non eaque esse error, repellat et tempora repudiandae cupiditate
+              eligendi? Minus, repudiandae quasi. Vitae doloribus ipsam nemo,
+              harum obcaecati ut numquam.
             </p>
-            <h3 class="heading-tertiary u-margin-bottom-small">Live adventous like you never have before</h3>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Live adventous like you never have before
+            </h3>
             <p class="paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet iste repellat iusto, nobis aut nostrum placeat fugiat dolores ipsam eligendi, sed quo!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              iste repellat iusto, nobis aut nostrum placeat fugiat dolores
+              ipsam eligendi, sed quo!
             </p>
 
             <a href="#" class="btn-text">Learn more &rarr; </a>
           </div>
           <div class="col-1-of-2">
             <div class="composition">
-              <img src="img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
-              <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-              <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+
+              <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                  sizes="(max-width: 900px) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 1"
+                  class="composition__photo composition__photo--p1"
+                  src="img/nat-1-large.jpg"
+              >
+              <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 2"
+                  class="composition__photo composition__photo--p2"
+                  src="img/nat-2-large.jpg"
+              >
+              <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 3"
+                  class="composition__photo composition__photo--p3"
+                  src="img/nat-3-large.jpg"
+              >
+
+
+              <!-- <img
+                src="img/nat-2-large.jpg"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="img/nat-3-large.jpg"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+              /> -->
             </div>
           </div>
         </div>
@@ -86,36 +136,48 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-world"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Explore the world
+              </h3>
               <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus illo officiis maxime dolor.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ducimus illo officiis maxime dolor.
               </p>
             </div>
           </div>
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-compass"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Meet nature
+              </h3>
               <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus illo officiis maxime dolor.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ducimus illo officiis maxime dolor.
               </p>
             </div>
           </div>
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-map"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Find your way
+              </h3>
               <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus illo officiis maxime dolor.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ducimus illo officiis maxime dolor.
               </p>
             </div>
           </div>
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-heart"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">live a healtier life</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                live a healtier life
+              </h3>
               <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus illo officiis maxime dolor.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ducimus illo officiis maxime dolor.
               </p>
             </div>
           </div>
@@ -124,18 +186,14 @@
 
       <section class="section-tours">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Most popular tours
-          </h2>
+          <h2 class="heading-secondary">Most popular tours</h2>
         </div>
 
         <div class="row">
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front card__side--front-1">
-                <div class="card__picture card__picture--1">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--1">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span-1">
                     The Sea Explorer
@@ -165,9 +223,7 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front card__side--front-1">
-                <div class="card__picture card__picture--2">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--2">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span-2">
                     The Forest hiker
@@ -197,9 +253,7 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front card__side--front-3">
-                <div class="card__picture card__picture--3">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--3">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span-3">
                     The snow adventurer
@@ -233,31 +287,39 @@
         </div>
       </section>
 
-
       <section class="section-stories">
-
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
-            <source src="./img/video.mp4" type="video/mp4">
-            <source src="./img/video.webm" type="video/webm">
-              Your browser is not supported!
+            <source src="./img/video.mp4" type="video/mp4" />
+            <source src="./img/video.webm" type="video/webm" />
+            Your browser is not supported!
           </video>
         </div>
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            We make people genuinely happy
-          </h2>
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
         </div>
 
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img class="story__image" src="img/nat-8.jpg" alt="Person on a tour">
+              <img
+                class="story__image"
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+              />
               <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium pariatur fugit qui minus quidem, facilis excepturi modi veritatis repudiandae quisquam odit beatae at, nam earum. Voluptates laudantium pariatur fugit qui minus quidem, facilis excepturi modi veritatis repudiandae quisquam odit beatae at, nam earum.
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates laudantium pariatur fugit qui minus quidem, facilis
+                excepturi modi veritatis repudiandae quisquam odit beatae at,
+                nam earum. Voluptates laudantium pariatur fugit qui minus
+                quidem, facilis excepturi modi veritatis repudiandae quisquam
+                odit beatae at, nam earum.
               </p>
             </div>
           </div>
@@ -265,12 +327,24 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img class="story__image" src="img/nat-9.jpg" alt="Person on a tour">
+              <img
+                class="story__image"
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+              />
               <figcaption class="story__caption">Nat Wilson</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completly different</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium pariatur fugit qui minus quidem, facilis excepturi modi veritatis repudiandae quisquam odit beatae at, nam earum. Voluptates laudantium pariatur fugit qui minus quidem, facilis excepturi modi veritatis repudiandae quisquam odit beatae at, nam earum.
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! My life is completly different
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates laudantium pariatur fugit qui minus quidem, facilis
+                excepturi modi veritatis repudiandae quisquam odit beatae at,
+                nam earum. Voluptates laudantium pariatur fugit qui minus
+                quidem, facilis excepturi modi veritatis repudiandae quisquam
+                odit beatae at, nam earum.
               </p>
             </div>
           </div>
@@ -281,36 +355,55 @@
         </div>
       </section>
 
-
       <section class="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
               <form action="#" class="form">
                 <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">
-                    Start Book Now
-                  </h2>
+                  <h2 class="heading-secondary">Start Book Now</h2>
                 </div>
                 <div class="form__group">
-                  <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    id="name"
+                    required
+                  />
                   <label for="name" class="form__label">Full Name</label>
                 </div>
                 <div class="form__group">
-                  <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email Address"
+                    id="email"
+                    required
+                  />
                   <label for="email" class="form__label">Email address</label>
                 </div>
 
                 <div class="form__group u-margin-bottom-big">
                   <div class="form__radio-group">
-                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
                     <label for="small" class="form__radio-label">
                       <span class="form__radio-button"></span>
                       Small tour group
                     </label>
                   </div>
                   <div class="form__radio-group">
-                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
                     <label for="large" class="form__radio-label">
                       <span class="form__radio-button"></span>
                       Large tour group
@@ -329,24 +422,53 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo"> 🏴󠁧󠁢󠁷󠁬
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-small-green-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full logo"
+            class="footer__logo"
+            src="img/logo-green-2x.png"
+          />
+
+        </picture>
       </div>
+
       <div class="row">
         <div class="col-1-of-2">
           <div class="footer__navigation">
             <ul class="footer__list">
-              <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Carreers</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carreers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
             Built by <a href="#" class="footer__link">Kebur Lulseged</a>
-            Copyright &copy; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus magni cumque maiores, facere ipsum unde amet vitae fuga nam pariatur quod architecto modi nobis fugit incidunt ipsam aperiam nisi.
+            Copyright &copy; Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Ullam voluptatibus magni cumque maiores, facere ipsum unde
+            amet vitae fuga nam pariatur quod architecto modi nobis fugit
+            incidunt ipsam aperiam nisi.
           </p>
         </div>
       </div>
@@ -355,15 +477,25 @@
     <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
-          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
         </div>
         <div class="popup__right">
           <a href="#section-tours" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
           <p class="popup__text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste eveniet dolore voluptate facere deserunt esse eos voluptatum asperiores atque. Nobis quis recusandae veritatis iure quaerat nihil repellat assumenda tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat illum quasi, eum tempora eos et sed aliquid itaque saepe ipsa corporis, omnis magnam eaque consequatur dolorem provident aspernatur. Debitis.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            iste eveniet dolore voluptate facere deserunt esse eos voluptatum
+            asperiores atque. Nobis quis recusandae veritatis iure quaerat nihil
+            repellat assumenda tenetur? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolorum repellat illum quasi, eum tempora eos et
+            sed aliquid itaque saepe ipsa corporis, omnis magnam eaque
+            consequatur dolorem provident aspernatur. Debitis.
           </p>
           <a href="#" class="btn btn--green">Book Now</a>
         </div>
